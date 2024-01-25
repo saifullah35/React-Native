@@ -13,6 +13,10 @@ const HomeScreen = ({ navigation }) => {  //Using navigation savestime by not ha
         title="Go to List Demo"
         onPress={() => navigation.navigate('List')}
       />
+      <Button
+        title="Go to Image Screen"
+        onPress={() => navigation.navigate('Image')}
+      />
     </View>
   );
 };
