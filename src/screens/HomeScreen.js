@@ -29,6 +29,10 @@ const HomeScreen = ({ navigation }) => {  //Using navigation savestime by not ha
         title="Go to Square Demo"
         onPress={() => navigation.navigate('Square')}
       />
+      <Button
+        title="Go to Text Screen"
+        onPress={() => navigation.navigate('Text')}
+      />
     </View>
   );
 };
